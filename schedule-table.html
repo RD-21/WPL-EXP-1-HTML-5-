@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Schedules</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #f4f6f8;
+            padding: 40px;
+        }
+        
+        .back-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 25px;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .back-btn:hover {
+            background: darkred;
+        }
+        
+        .title-box {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            display: inline-block;
+            border: 3px solid red;
+            padding: 8px 18px;
+            border-radius: 6px;
+            color: black;
+        }
+        
+        table {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-collapse: collapse;
+            border-left: 4px solid red;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        th {
+            background: red;
+            color: white;
+        }
+        
+        th,
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">
+ Home
+</button>
+
+    <div class="title-box">
+        <h2>Route Schedule Details</h2>
+    </div>
+
+    <table>
+        <tr>
+            <th>Route No</th>
+            <th>Stop Name</th>
+            <th>Arrival Time</th>
+            <th>Departure Time</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Dadar</td>
+            <td>18:00</td>
+            <td>18:05</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Bandra Kurla Complex</td>
+            <td>18:35</td>
+            <td>18:40</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Santacruz</td>
+            <td>19:30</td>
+            <td>19:35</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>CSMI Airport – 1</td>
+            <td>19:55</td>
+            <td>20:00</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>CSMI Airport – 2</td>
+            <td>20:15</td>
+            <td>20:20</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Marol Naka</td>
+            <td>20:50</td>
+            <td>20:55</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

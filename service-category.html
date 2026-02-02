@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Service Categories</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #f8f9fa;
+            padding: 40px;
+        }
+        
+        h2 {
+            margin-left: 20px;
+            color: black;
+            display: inline-block;
+            border: 3px solid red;
+            padding: 8px 16px;
+            border-radius: 6px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 500px;
+        }
+        
+        li {
+            background: white;
+            margin: 14px 0;
+            padding: 18px;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+        }
+        
+        .regular {
+            border-left: 5px solid yellow;
+        }
+        
+        .express {
+            border-left: 5px solid orange;
+        }
+        
+        .premium {
+            border-left: 5px solid red;
+            font-weight: bold;
+        }
+        
+        small {
+            display: block;
+            margin-top: 4px;
+            color: #6c757d;
+            font-weight: normal;
+        }
+        
+        .back-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 20px;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .back-btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">
+ Home
+</button>
+
+    <h2>Transport Service Categories</h2>
+
+    <ul>
+        <li class="regular">
+            Regular Service
+            <small>Frequent stops across the city</small>
+        </li>
+
+        <li class="express">
+            Express Service
+            <small>Limited stops for faster travel</small>
+        </li>
+
+        <li class="premium">
+            AC Service
+            <small>Premium comfort with AC</small>
+        </li>
+
+        <li class="premium">
+            Night Service
+            <small>Available during late night hours</small>
+        </li>
+    </ul>
+
+</body>
+
+</html>

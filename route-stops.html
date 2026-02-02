@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Route Stops</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: white;
+            padding: 40px;
+        }
+        
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border-left: 4px solid red;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        ol li {
+            padding: 6px 0;
+        }
+        
+        dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        dd {
+            margin-left: 20px;
+            color: #555;
+        }
+        
+        .back-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 20px;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .back-btn:hover {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="back-btn" onclick="window.location.href='index.html'">
+ Home
+</button>
+
+    <div class="section">
+        <h2>Route 1 – Stops</h2>
+        <h3>Stop Order</h3>
+        <ol>
+            <li>Dadar</li>
+            <li>Bandra Kurla Complex</li>
+            <li>Santacruz</li>
+            <li>Csmi Airport-1</li>
+            <li>Csmi Airport-2</li>
+            <li>Marol Naka</li>
+        </ol>
+        <h3>Stop Details</h3>
+        <dl>
+            <dt>Dader</dt>
+            <dd>Shivaji park(sports ground)</dd>
+            <dt>Bandra Kurla Complex</dt>
+            <dd>Commercial hub(diamond market)</dd>
+            <dt>Santacruz</dt>
+            <dd>Metro station</dd>
+            <dt>Csmi Airport-1</dt>
+            <dd>Domestic Airport</dd>
+            <dt>Csmi Airport-2</dt>
+            <dd>International Airport</dd>
+            <dt>Marol Naka</dt>
+            <dd>Business district</dd>
+        </dl>
+    </div>
+</body>
+
+</html>

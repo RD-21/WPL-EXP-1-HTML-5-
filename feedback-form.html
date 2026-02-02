@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Citizen Feedback</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #e9ecef;
+            padding: 50px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: black;
+            display: inline-block;
+            border: 3px solid red;
+            padding: 8px 18px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+        }
+        
+        .title-box {
+            text-align: center;
+        }
+        
+        form {
+            background: white;
+            max-width: 420px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid red;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        textarea {
+            resize: none;
+        }
+        
+        .submit {
+            margin-top: 20px;
+            padding: 12px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .submit:hover {
+            background: darkred;
+        }
+        
+        .back-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 25px;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .back-btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">
+ Home
+</button>
+
+    <div class="title-box">
+        <h2>Citizen Feedback Form</h2>
+    </div>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="tel" placeholder="Contact Number" required>
+
+        <select required>
+        <option value="">Select Route</option>
+        <option>Route 1</option>
+       
+    </select>
+
+        <textarea rows="4" placeholder="Your Feedback" required></textarea>
+
+        <button class="submit" type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
